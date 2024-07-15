@@ -7,7 +7,7 @@ import { CiBookmark } from "react-icons/ci";
 import { BsChatSquareText } from "react-icons/bs";
 import { IoMdArrowDropdown } from "react-icons/io";
 import logo from "./images/Logo.png";
-import man from "./images/man1.jpg";
+import man from "./images/man1.png";
 import set from "./images/set.png";
 
 const NavPage = () => {
@@ -56,19 +56,6 @@ const NavPage = () => {
             <Nav.Link href="#deets">
               <BsChatSquareText />
             </Nav.Link>
-            {/* <Navbar className="bg-body-tertiary">
-              <Container>
-                <Navbar.Brand href="#home">
-                  <img
-                    src={man}
-                    width="30"
-                    height="30"
-                    className="-mt-2 rounded-2xl"
-                    // alt="React Bootstrap logo"
-                  />
-                </Navbar.Brand>
-              </Container>
-            </Navbar> */}
             <Nav.Link href="#deets">
               <img
                 src={man}
